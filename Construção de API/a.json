@@ -1,0 +1,24 @@
+[
+  {
+    "name": {
+      "first": "John",
+      "last": "Doe"
+    },
+    "email": "john.doe@example.com",
+    "dob": {
+      "date": "1990-04-23T10:45:00Z",
+      "age": 34
+    }
+  },
+  {
+    "name": {
+      "first": "Jane",
+      "last": "Smith"
+    },
+    "email": "jane.smith@example.com",
+    "dob": {
+      "date": "1985-09-17T10:45:00Z",
+      "age": 39
+    }
+  }
+]

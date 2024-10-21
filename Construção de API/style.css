@@ -1,0 +1,65 @@
+h1,
+h2 {
+  font-family: "Cinzel", serif; /* Exemplo de fonte elegante */
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #ffd700; /* Dourado lendário */
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background-size: 400% 400%;
+  animation: backgroundMove 15s ease infinite;
+}
+
+@keyframes backgroundMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+button {
+  background-color: #ff4500;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ffd700;
+  color: black;
+  box-shadow: 0px 0px 15px 3px rgba(255, 215, 0, 0.7);
+}
+
+.glowing-text {
+  color: #fff;
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+}
+
+.glowing-border {
+  border: 3px solid #ffd700;
+  box-shadow: 0px 0px 15px 5px rgba(255, 215, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+img {
+  border: 5px solid rgba(255, 215, 0, 0.7);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
